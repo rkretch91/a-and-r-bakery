@@ -52,6 +52,7 @@
  top: 0px;
  left: 0px;
  width: 100%;
+ white-space: nowrap;
 }
 
 .marquee p {
@@ -129,4 +130,15 @@ div#slider figure {
   text-align: left;
   font-size: 0;
   animation: 10s slidy2 infinite;
+}
+
+.logo {
+  margin: auto;
+  width: 50%;
+  position: absolute;
+  top: 220px;
+  left: 80px;
+}
+.logo img {
+  height: 300px;
 }
