@@ -52,6 +52,7 @@
  top: 0px;
  left: 0px;
  width: 100%;
+ white-space: nowrap;
 }
 
 .marquee p {
@@ -61,6 +62,8 @@
  margin: 0;
  line-height: 50px;
  text-align: center;
+ font-family: 'Open Sans', sans-serif;
+ font-weight: lighter;
  /* Starting position */
  -moz-transform:translateX(100%);
  -webkit-transform:translateX(100%);
@@ -68,7 +71,7 @@
  /* Apply animation to this element */
  -moz-animation: scroll-left 5s linear infinite;
  -webkit-animation: scroll-left 5s linear infinite;
- animation: scroll-left 5s linear infinite;
+ animation: scroll-left 10s linear infinite;
 }
 /* Move it (define the animation) */
 @-moz-keyframes scroll-left {
@@ -90,4 +93,106 @@
  -webkit-transform: translateX(-100%); /* Browser bug fix */
  transform: translateX(-100%);
  }
+}
+
+
+@keyframes slidy {/*working except slide 5 */
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+@keyframes slidy2 {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+40% { left: -100%; }
+45% {left: -100%; }
+60% { left: -200%; }
+65% { left: -200%; }
+80% { left: -300%; }
+85% { left: -300%; }
+/*90% { left: -400%; }*/
+100% { left: -400%; }
+}
+
+body { margin: 0; }
+div#slider { overflow: hidden; }
+div#slider figure img { width: 20%; float: left; }
+div#slider figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 15s slidy2 infinite;
+}
+
+.logo {
+  margin: auto;
+  width: 50%;
+  position: absolute;
+  top: 280px;
+  left: 50%;
+  transform: translate(-75%);
+}
+
+@media only screen and (min-width: 500px) {
+    .logo {
+        transform: translate(-60%);
+    }
+}
+
+.logo img {
+  height: 200px;
+}
+
+.landing-text {
+  position: relative;
+  text-align: center;
+  margin-top: 30%;
+}
+
+@media only screen and (max-width: 500px) {
+    .landing-text {
+        margin-top: 45%;
+    }
+}
+
+.landing-text h3 {
+  font-family: 'Permanent Marker', cursive;
+  color: #ff006c;
+  font-size: 23px;
+}
+
+.landing-text p {
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+}
+
+.landing-text em {
+  font-family: 'Permanent Marker', cursive;
+  color: #ff006c;
+}
+
+.btn {
+ background-color: #909090;
+ opacity: .8;
+ border: none;
+ color: white;
+ padding: 10px 20px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 12px;
+ position: absolute;
+ right: 5px;
+ top: 50px;
+ border-radius: 20px;
 }
