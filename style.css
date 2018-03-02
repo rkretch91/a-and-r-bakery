@@ -13,6 +13,7 @@ body { margin: 0; }
   background: white;
   animation: fadeIn 0.4s 1 ease-out;
   animation-fill-mode: forwards;
+  overflow-y: hidden;
 }
 
 .page-content {
@@ -262,7 +263,7 @@ div#slider figure {
 }*/
 
 .footer {
-  height: 13vh;
+  height: 15vh;
   background: black;
   position: absolute;
   bottom: 0;
@@ -271,36 +272,28 @@ div#slider figure {
 }
 
 .categories {
-/*  list-style: none;
-  height: 50%;
-  width: 100%;
-  white-space: nowrap;
-  text-align: center;*/
   list-style: none;
-  height: 30%;
+  height: 40%;
   white-space: nowrap;
   text-align: center;
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding: 0;
-  margin: 10px 0 0 0;
+  margin: 0;
 }
 
 .categories li {
-  border-right: 1px solid white;
-  border-bottom: 1px solid white;
+  border-right: 2px solid white;
   display: inline;
   color: white;
   line-height: 50px;
-   padding: 10px;
+  padding: 10px;
   text-transform: uppercase;
   letter-spacing: 1px;
-  /* font-weight: normal; */
   width: auto;
-  /* display: inline-block; */
   font-family: 'Permanent Marker', cursive;
-  font-size: 18px;
+  font-size: 1.3em;
   width: 100%;
 }
 
@@ -309,21 +302,26 @@ div#slider figure {
   text-decoration: none;
 }
 
+.menu-line {
+  width: 100vw;
+  border-bottom: solid 2px white;
+}
+
 .menu {
   list-style: none;
-  height: 60%;
+  height: 55%;
   white-space: nowrap;
   text-align: center;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  padding: 0;
-  margin: 10px 0 0 0;
+  margin: 0;
+  padding: 5px 0 0 0;
 }
 
 .home-btn {
   width: 27vw;
-  border-right: solid 1px white;
+  border-right: solid 2px white;
 }
 
 .home-btn img {
@@ -332,15 +330,53 @@ div#slider figure {
 
 .order-now {
   font-size: 3em;
-  padding: 0 0.6em;
+  height: 7vh;
+  width: 42vw;
+  border-right: solid 2px white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .order-now a {
   text-decoration: none;
   color: white;
   font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .order-now img {
   padding-right: 0.3em;
+  height: 1.2em;
 }
+
+.cart {
+  width: 17vw;
+  height: 7vh;
+  border-right: solid 2px white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart img {
+  width: 7vw
+}
+
+.account {
+  width: 17vw;
+  height: 7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.account img {
+  width: 7vw;
+}
+
+
+@media only screen and (max-width: 699px)
