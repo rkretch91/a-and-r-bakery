@@ -200,7 +200,7 @@ div#slider figure {
 .footer {
   height: 15vh;
   background: black;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0px;
   width: 100%;
@@ -216,7 +216,6 @@ div#slider figure {
   align-items: center;
   padding: 0;
   margin: 0;
-  position: fixed;
 }
 
 .categories li {
@@ -253,7 +252,6 @@ div#slider figure {
   align-items: center;
   margin: 0;
   padding: 5px 0 0 0;
-  position: fixed;
 }
 
 .home-btn {
