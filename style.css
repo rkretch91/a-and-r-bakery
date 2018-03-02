@@ -250,15 +250,17 @@ div#slider figure {
   height: 5vh;
   overflow-x: auto;
   background: black;
-  position: absolute;
-  bottom: 6vh;
+  position: fixed;
+  bottom: 7vh;
   left: 0px;
   width: 100%;
   display: block;
-  overflow-y: hidden;
-  white-space: nowrap;
+  /*overflow-y: hidden;*/
+  /*white-space: nowrap;*/
   font-size: 0px;
   text-align: center;
+  border-bottom: .5px solid white;
+  z-index: 9999;
 }
 
 .categories li {
@@ -278,6 +280,11 @@ div#slider figure {
   display: inline-block;
   font-family: 'Permanent Marker', cursive;
   font-size: 16px;
+  /*transform: translate(-10%);*/
+}
+
+.categories li:last-child {
+  border-right: hidden;
 }
 
 .categories a {
@@ -285,5 +292,60 @@ div#slider figure {
   text-decoration: none;
   font-weight: lighter;
   display: inline-block;
+}
+
+/*@media only screen and (max-width: 600px) {
+  .categories li {
+
+  }
+}*/
+
+.nav-bar {
+  list-style: none;
+  height: 7vh;
+  overflow-x: auto;
+  background: black;
+  position: fixed;
+  bottom: 0;
+  left: 0px;
+  width: 100%;
+  display: block;
+  overflow-y: hidden;
+  white-space: nowrap;
+  font-size: 0px;
+  text-align: center;
+  border-top: .5px solid white;
+}
+
+/*.nav-bar li {
+  float: none;
+  text-decoration: none;
+  height: 50px;
+  border-right: .5px solid white;
+  display: inline;
+  color: white;
+  line-height: 50px;
+  padding: 0px 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: normal;
+  width: auto;
+  display: inline-block;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 16px;
+  /*transform: translate(-10%);
+}*/
+
+.nav-bar img {
+  height: 5vh;
+  position: absolute;
+  bottom: 1vh;
+  border-right: .5px solid white;
+  padding-right: 2vh;
+}
+
+.footer {
+  display: table;   /* Allow the centering to work */
+  margin: 0 auto;
 }
 
