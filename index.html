@@ -2,9 +2,10 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Permanent+Marker" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Permanent+Marker" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
   <div class="page-container">
     <div ng-view class="page-content">
@@ -19,18 +20,36 @@
         <img src="images/IMG_0055.jpg" alt="">
         <img src="images/IMG_0087.jpg" alt="">
         </figure>
-        <button class="btn">EN/中文</button>
+        <button class="lang-btn">EN/中文</button>
       </div>
       <div class="logo">
         <img src="images/areatery-logo.png" alt="logo">
       </div>
+
       <div class="landing-text">
         <h3>NOT YOUR TRADITIONAL DONUTS</h3>
         <p><em>AMERICAN STYLE</em> bakery/eatery</p>
         <p>All donuts are<em> BAKED</em>, not deep-fried.</p>
-        <p>We take things to the next level with<em> UNIQUE</em> and<em> DELCIOUS</em> combinations of icings and toppings.</p>
+        <p>We take things to the next level with<em> UNIQUE</em> and<em> DELICIOUS</em> combinations of icings and toppings.</p>
       </div>
     </div>
+
+    <div class="footer">
+      <ul class="categories">
+        <li><a href="#">Chocolate</a></li>
+        <li><a href="#">Vanilla</a></li>
+        <li><a href="#">Red Velvet</a></li>
+        <li style="border-right: hidden;"><a href="#">Weekly Specials</a></li>
+      </ul>
+      <div class="menu-line"></div>
+      <ul class="menu">
+        <li class="home-btn"><a href="#"><img src="images/areatery-logo.png" alt="home-button"></a></li>
+        <li class="order-now"><a href="#"><img src="images/donut-icon.svg" alt="donut-icon"><p>Order Now</p></a></li>
+        <li class="cart"><a href="#"><img src="images/cart-icon.svg" alt="cart-icon"></a></li>
+        <li class="account"><a href="#"><img src="images/account-icon.svg" alt="account-icon"></a></li>
+      </ul>
+    </div>
+
   </div>
 </body>
 </html>

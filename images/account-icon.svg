@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="51px" height="51px" viewBox="0 0 51 51" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Person</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="A&amp;R-Eatery" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-663.000000, -1358.000000)">
+        <g id="Navbar" transform="translate(0.000000, 1320.000000)" stroke="#FFFFFF" stroke-width="2">
+            <g id="Person" transform="translate(664.000000, 38.000000)">
+                <ellipse id="Oval-7" cx="24.5" cy="14.9038462" rx="14.5" ry="13.9038462"></ellipse>
+                <path d="M15.5909091,25 L1.60977851,35.3471027 C0.720722387,36.005072 0,37.4426138 0,38.5392541 L0,47.9992074 C0,49.1042147 0.892315254,50 1.9968516,50 L47.0031484,50 C48.1059791,50 49,49.0958477 49,47.9992074 L49,38.5392541 C49,37.4342469 48.2792867,36.0050788 47.3902215,35.3471027 L33.4090909,25" id="Path-7"></path>
+            </g>
+        </g>
+    </g>
+</svg>
