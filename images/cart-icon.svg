@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="50px" viewBox="0 0 56 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Cart</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="A&amp;R-Eatery" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-531.000000, -1359.000000)">
+        <g id="Navbar" transform="translate(0.000000, 1320.000000)" stroke="#FFFFFF" stroke-width="2">
+            <g id="Cart" transform="translate(531.000000, 39.000000)">
+                <path d="M1.10814786,1.63967973 L9.4760458,30.78716 C9.65506126,31.4107156 10.4123324,31.9787234 11.0742058,31.9787234 L44.9266525,31.9787234 C45.59215,31.9787234 46.344412,31.4155399 46.5248125,30.78716 L54.8927104,1.63967973 C55.0112491,1.22678002 54.8396221,1 54.3987383,1 L1.60211998,1 C1.15471484,1 0.987763038,1.22034929 1.10814786,1.63967973 Z" id="Rectangle-25"></path>
+                <ellipse id="Oval-21" cx="16.9056604" cy="42.5531915" rx="6.39622642" ry="6.44680851"></ellipse>
+                <ellipse id="Oval-22" cx="40.1509434" cy="42.5531915" rx="6.39622642" ry="6.44680851"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>
